@@ -1,5 +1,3 @@
-/********** Fixes **********/
-
 * {
   margin:0;
   padding:0;
@@ -24,11 +22,36 @@
 
 /* Posititoning Classes */
 
-.column1{
-  width: 200px;
-  float:left;
+.white-box {
+  background: white;
 }
-.column2{
-  width: 32%;
+
+.featured-brand {
   float: left;
+  width: 66%;
+  margin: 0 5px 10px 0;
+}
+
+.archive {
+  float: left;
+  width: 32%;
+  margin: 0 0 10px 10px;
+}
+
+.col-end-left {
+    float: left;
+    width: 32%;
+    margin: 10px 0 0 0;
+}
+
+.col-end-right {
+  float: left;
+  width: 32%;
+  margin: 10px 0 0 0;
+}
+
+.col-middle {
+  float: left;
+  width: 32%;
+  margin: 10px 17px 0 17px;
 }
