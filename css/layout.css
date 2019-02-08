@@ -24,4 +24,11 @@
 
 /* Posititoning Classes */
 
-
+.column1{
+  width: 50%;
+  float:left;
+}
+.column2{
+  width: 32%;
+  float: left;
+}
